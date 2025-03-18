@@ -2,7 +2,7 @@ import Database from "better-sqlite3";
 import { join } from "path";
 
 // Connect to your external database process.cwd() is used toto locate the SQLite database file
-const db = new Database(join(process.cwd(), "backend/src/db/forum.db"), {
+const db = new Database(join(process.cwd(), "src/db/forum.db"), {
   verbose: console.log,
 });
 

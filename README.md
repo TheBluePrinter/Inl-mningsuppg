@@ -1,12 +1,17 @@
 ## Features
+
 - View and create discussion threads
 - Add and delete replies to threads
 - Database with SQLite
+
 ### Frontend
+
 - React
 - React Router
 - Context API
+
 ### Backend
+
 - Express.js
 - SQLite database
 - Better-sqlite3
@@ -24,8 +29,11 @@ brew install node || brew upgrade node
 node -v   # Should show v16 or higher
 npm -v    # Should show v8 or higher
 ```
+
 ## Installation
+
 2. Install dependencise
+
 ```bash
 # Install frontend dependencies
 cd frontend
@@ -35,20 +43,25 @@ npm install
 cd ../backend
 npm install
 ```
+
 ## Running the Application (Development Mode)
 
 1. Start the Backend Server:
+
 ```bash
 cd backend
 npm start
 ```
+
 The backend will run on `http://localhost:3001`
 
 2. In a new terminal, start the Frontend Development Server:
+
 ```bash
 cd frontend
 npm run dev
 ```
+
 The frontend will run on `http://localhost:3000`
 
 ## API Endpoints
